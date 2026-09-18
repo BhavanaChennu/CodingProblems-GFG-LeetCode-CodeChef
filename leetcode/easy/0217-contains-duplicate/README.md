@@ -45,8 +45,8 @@ All elements are distinct.
 
 **Language:** Java  
 **Runtime:** 39 ms (beats 5.02%)  
-**Memory:** 110.5 MB (beats 9.93%)  
-**Submitted:** 2026-09-18T15:01:11.330Z  
+**Memory:** 110.6 MB (beats 8.74%)  
+**Submitted:** 2026-09-18T15:06:08.234Z  
 
 ```java
 class Solution {
