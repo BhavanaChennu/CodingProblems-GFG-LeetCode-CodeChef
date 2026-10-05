@@ -34,7 +34,7 @@ Explanation: The sum of left of index 3 is -7 + 1 + 5 = -1 and sum on right of i
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-04T15:17:40.712Z  
+**Submitted:** 2026-10-05T17:41:11.955Z  
 
 ```java
 class Solution {
