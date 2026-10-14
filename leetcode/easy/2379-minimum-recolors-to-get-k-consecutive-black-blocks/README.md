@@ -50,9 +50,9 @@ Therefore, we return 0.
 ## Solution
 
 **Language:** Java  
-**Runtime:** 1 ms (beats 94.88%)  
-**Memory:** 43.1 MB (beats 11.54%)  
-**Submitted:** 2026-10-03T05:14:54.332Z  
+**Runtime:** 1 ms (beats 93.96%)  
+**Memory:** 42.1 MB (beats 99.61%)  
+**Submitted:** 2026-10-14T17:38:42.630Z  
 
 ```java
 class Solution {
