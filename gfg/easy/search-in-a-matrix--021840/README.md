@@ -38,7 +38,7 @@ Explanation: 101 is present in the matrix.
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-23T16:39:51.738Z  
+**Submitted:** 2026-10-14T16:58:18.066Z  
 
 ```java
 class Solution {
