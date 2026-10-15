@@ -63,9 +63,9 @@ For [0, -3], the 1st smallest negative integer is -3.
 ## Solution
 
 **Language:** Java  
-**Runtime:** 28 ms (beats 84.04%)  
-**Memory:** 184.5 MB (beats 40.45%)  
-**Submitted:** 2026-10-01T15:36:05.144Z  
+**Runtime:** 30 ms (beats 78.75%)  
+**Memory:** 184.2 MB (beats 68.13%)  
+**Submitted:** 2026-10-15T15:42:34.030Z  
 
 ```java
 class Solution {
