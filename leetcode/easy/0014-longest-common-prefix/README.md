@@ -38,13 +38,15 @@ Explanation: There is no common prefix among the input strings.
 ## Solution
 
 **Language:** Java  
-**Runtime:** 1 ms (beats 58.64%)  
-**Memory:** 42.7 MB (beats 96.02%)  
-**Submitted:** 2026-10-19T16:23:04.948Z  
+**Runtime:** 0 ms  
+**Memory:** 41.7 MB  
+**Submitted:** 2026-10-19T16:23:33.568Z  
 
 ```java
 class Solution {
     public String longestCommonPrefix(String[] strs) {
+        /* 1 
+        
         if (strs == null || strs.length == 0) return "";
 
         Arrays.sort(strs);
@@ -61,6 +63,19 @@ class Solution {
         }
 
         return strs[i].substring(0, m);
+
+        */
+
+        if (strs == null || strs.length == 0) return "";
+        
+        String prefix = strs[0];
+        for (int i = 1; i < strs.length; i++) {
+            while (strs[i].indexOf(prefix) != 0) {
+                prefix = prefix.substring(0, prefix.length() - 1);
+                if (prefix.isEmpty()) return "";
+            }
+        }
+        return prefix;
     }
 }
 ```
